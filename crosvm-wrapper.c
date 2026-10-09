@@ -1,5 +1,7 @@
 /* crosvm-wrapper.c — freestanding "disk order" shim for the borealis VM.
  *
+ * Copyright (C) 2002-2026 NekoYuzu (MlgmXyysd) All Rights Reserved.
+ *
  * Installed as /usr/bin/crosvm, with the stock binary moved aside to
  * /usr/bin/crosvm.real. Every exec is forwarded to the real crosvm; only for
  * the borealis VM is the argument list rewritten on the way through.
